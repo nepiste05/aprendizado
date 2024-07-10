@@ -1,12 +1,15 @@
 <?php
 
-$numero1 = 20;
-$numero2 = 40;
-$operador = '-';
+$numero1 = 9;
+$numero2 = 0;
+$operador = '/';
 
 switch ($operador) {
     case '+':
         $resultado = $numero1 + $numero2;
+
+
+
         break;
     case '-':
         $resultado = $numero1 - $numero2;
