@@ -10,6 +10,7 @@ if($nota <= 2) {
     echo 'Nota positiva';
 }else {
     echo 'Nota excelente';
+
 }
 
 echo "<hr>"; // quebra de linha

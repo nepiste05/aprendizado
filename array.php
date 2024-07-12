@@ -9,6 +9,7 @@ $array = array($numero1, $numero2, $numero3);
 $maior = $array[0];
 $menor = $array[0];
 
+
 // Verifica o maior número
 foreach ($array as $numero) {
     if ($numero > $maior) {

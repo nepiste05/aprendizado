@@ -20,6 +20,7 @@ echo "olá sra. {$nomedois} <br>";
 $variavelconcat =$nome . " " .$nomedois;
 
 
+
 echo $variavelconcat . "<br>";
 
 $variavel3 = $variavel + $variaveldois ;

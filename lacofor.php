@@ -13,7 +13,10 @@ for ($i = 1; $i <= 100; $i++) {
     }}
 echo "<br>";
 
+
 echo "As duas condições :\n";
+
+
 for ($i = 1; $i <= 100; $i++) {
     if ($i % 2 == 0 && $i % 5 == 0 ) {
         echo "$i\n";
