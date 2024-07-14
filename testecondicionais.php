@@ -35,7 +35,30 @@ switch ($dia) {
     break; }
             echo "<br>";
 
-// desafio 3
+// desafio 3 Laço while
 
+$numero = 1;
+while ($numero <= 10) {
+    echo "Numero: $numero\n";
+    $numero++;
+}
+    echo "<br>";
+
+//desafio 4 Laço do-while
+
+
+echo "<br>";
+
+
+// desafio 5 Laço for
+
+$numero = 2;
+for ($i= 0; $i <= 10; $i++) {
+    echo "{$numero} * {$i} =".($numero*$i). "<br>";
+}
+
+echo "<br>";
+
+// desafio 6 Laço foreach
 
 
