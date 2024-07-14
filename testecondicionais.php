@@ -61,4 +61,7 @@ echo "<br>";
 
 // desafio 6 Laço foreach
 
-
+$nomes = array ('Beto','Karine','Ana','Frida');
+foreach ($nomes as $nome) {
+    echo "Nome:$nome <br>";
+}
