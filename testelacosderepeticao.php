@@ -59,3 +59,17 @@ $numero = 3;
 
 // desafio 5 numeros primos
 
+$numero = 5;
+$contador = 0;
+for ($i = 1; $i <= $numero; $i++) {
+    if $numero % '$1 == 0';
+    {
+         $contador++;
+    }
+}
+    if ($contador == 2) {
+        echo "O numero é primo";
+    } else {
+        echo "O numero não é primo";
+    }
+
