@@ -85,4 +85,5 @@ function realizarVerificacoes($numeroInicial)
     }
 }
 
-realizarVerificacoes($numeroInicial, $limite, $excecao);
+realizarVerificacoes ($numeroInicial);
+

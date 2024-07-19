@@ -109,5 +109,44 @@ $resultado = soma($a, $b);
 echo "A soma de $a e $b é igual a $resultado.";
 echo "<br><br>";
 
+// desafio 6 integrador
+
+$numeros = array(2, 3, 6, 7, 9, 10, 13);    // declarar variavel
+
+function processarNumero($numero){  // função definida
+if ($numero % 2 == 0) {     // verifica se numero é impar ou par
+  $parOuImpar = "par";
+} else {
+   $parOuImpar = "ímpar";
+}
+  $ehPrimo = true;        // verifica se numero é primo
+    if ($numero <= 1) {
+     $ehPrimo = false;
+    } else {
+     for ($i = 2; $i <= sqrt($numero); $i++) {
+       if ($numero % $i == 0) {
+        $ehPrimo = false;
+         break;
+            }    }}
+
+    $resultado = "Número $numero é $parOuImpar e "; "<br>";
+    if ($ehPrimo) {
+        $resultado .= "é primo.;<br>";
+    } else {
+        $resultado .= "não é primo.; <br>";
+    }
+
+    return $resultado;
+}
+
+foreach ($numeros as $numero) {
+    echo processarNumero($numero) . "\n";
+}
+
+
+
+
+
+
 
 
