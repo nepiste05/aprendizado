@@ -46,7 +46,8 @@ echo "Verificando se '$word3' é palíndromo: " . (isPalindrome($word3) ? "Sim" 
 
 echo "<br>";
 
-// desafio 3
+
+// desafio 4
 
 function encontrarMaior($array){
     if (count($array) == 1) {
@@ -63,3 +64,28 @@ function encontrarMaior($array){
 $arrayNumeros = [10,2,13,4,23,];
 $maiorValor = encontrarMaior($arrayNumeros);
 echo "O maior valor de Array é: $maiorValor";
+
+echo "<br>";
+
+// desafio 5
+
+
+function potencia($base, $expoente)
+{
+    // Caso base: qualquer número elevado a 0 é 1
+    if ($expoente == 0) {
+        return 1;
+    }
+    // Caso base: qualquer número elevado a 1 é o próprio número
+    if ($expoente == 1) {
+        return $base;
+    }
+
+    return $base * potencia($base, $expoente - 1);
+}
+
+$x = 2; // base
+$y = 5; // expoente
+$resultado = potencia($x, $y);
+echo "$x elevado a $y é igual a $resultado";
+
