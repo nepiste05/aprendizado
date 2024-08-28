@@ -4,12 +4,13 @@ if($nota <= 2) {
     echo 'Nota fraca';
 } elseif ($nota <= 4) {
     echo 'Nota insuficiente';
-}elseif ($nota <= 6) {  //
+}elseif ($nota <= 6) {
     echo 'Nota razoavel';
 }elseif ($nota <= 8) {
     echo 'Nota positiva';
 }else {
     echo 'Nota excelente';
+
 }
 
 echo "<hr>"; // quebra de linha
