@@ -23,6 +23,8 @@ $resultadoMultiplicacao = $numero1 * $numero2;
 echo "O resultado da multiplicação é: " . $resultadoMultiplicacao . "<br>";
 
 // desafio 3
+
+
 $numeroFloat = 3.23;
 $numeroDouble = 2.495694;
 $somaFloatDouble = $numeroFloat + $numeroDouble;
